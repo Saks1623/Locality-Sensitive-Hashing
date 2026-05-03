@@ -2,11 +2,11 @@
 
 This repository contains two implementations of **Locality Sensitive Hashing (LSH)** for efficient approximate nearest neighbor search in high-dimensional data.
 
-## 🚀 Overview
+## Overview
 
 LSH hashes similar data points into the same buckets with high probability, reducing exhaustive comparisons.
 
-## 📁 Files
+## Files
 
 ### LSH_1.cpp
 - Binary vectors  
@@ -18,7 +18,7 @@ LSH hashes similar data points into the same buckets with high probability, redu
 - Random hyperplane hashing  
 - Cosine similarity  
 
-## ⚙️ How It Works
+## How It Works
 
 1. Generate dataset  
 2. Create hash functions  
@@ -37,12 +37,8 @@ g++ LSH_2.cpp -o lsh2
 ./lsh2
 ```
 
-## 📌 Applications
+## Applications
 
 - Information retrieval  
 - Recommendation systems  
 - Similarity search  
-
-## ⚠️ Note
-
-Approximate method: faster but not always exact.
